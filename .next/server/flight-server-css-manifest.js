@@ -1,1 +1,1 @@
-self.__RSC_CSS_MANIFEST={}
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/codemuscle/Desktop/Trainity v3/app/tracks/page":["/Users/codemuscle/Desktop/Trainity v3/styles/globals.css"]},"/Users/codemuscle/Desktop/Trainity v3/app/layout.js":["/Users/codemuscle/Desktop/Trainity v3/styles/globals.css"]}

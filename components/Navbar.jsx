@@ -5,9 +5,9 @@ import styles from '../styles';
 
 const Navbar = () => (
   <nav className={`${styles.xPaddings} z-10 py-8 relative justify-between flex border-bottom`}>
-    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`} >
+    <a href="/" className={`${styles.innerWidth} mx-auto flex justify-between gap-8`} >
       <Image src="/logo.svg" alt="logo" width={100} height={40} className="cursor-pointer" />
-    </div>
+    </a>
 
     <div className={`w-full mx-auto align-center flex justify-end gap-12`}>
         <h4 className={`whitespace-nowrap font-normal text-[15px] leading-[20px] text-white`}> <a href="/tracks">Tracks</a></h4>

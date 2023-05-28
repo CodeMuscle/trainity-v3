@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
     "@material-tailwind/react": "^2.0.1",
     "@studio-freight/lenis": "^1.0.12",
     "@studio-freight/react-lenis": "^0.0.19",
@@ -16,6 +17,7 @@
     "embla-carousel-react": "^8.0.0-rc03",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
+    "headlessui": "^0.0.0",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",

@@ -147,12 +147,23 @@
   opacity: 0.1;
 }
 
+.vertical-dashed{
+  height: 60px;
+  border: 1px dashed #fff;
+  width: 1px;
+  opacity: 0.3;
+}
+
 .wing{
   background: url('/wing.svg') no-repeat cover;
 }
 
 .earn-card{
   background: rgba(241, 238, 255, 0.06);
+}
+
+.nano-card{
+  background: linear-gradient(90deg, #F7BA2C 0%, #EA5459 100%);
 }
 
 .step-1{
@@ -219,7 +230,6 @@ hr{
 
 .tricard:hover{
   background: #122C37;
-
 }
 
 .socials a{

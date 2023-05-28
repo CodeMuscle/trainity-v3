@@ -1,5 +1,5 @@
 import { Footer, Navbar } from '../components';
-import { About, Experience, Feedback, GetStarted, Hero, Insights, Roadmap, World } from '../sections';
+import { About, Experience, Feedback, GetStarted, Hero, Insights, World } from '../sections';
 import LogoSlider from '../sections/LogoSlider';
 // import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
 
@@ -10,7 +10,6 @@ const Page = () => (
       <About />
       <LogoSlider/ >
       <Experience />
-      <Roadmap />
       <GetStarted />
       <World />
       <Insights />
