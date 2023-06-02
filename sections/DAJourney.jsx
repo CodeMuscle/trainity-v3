@@ -416,7 +416,7 @@ const DAJourney = () => {
                                 <Image src="/Strategy.svg" alt="product" width={300} height={300} />
                                 <Image src="/PRD.svg" alt="prd" width={270} height={270} />
                                 <div className="flex flex-col gap-4">
-                                    <Image src="/Design-Thinking.svg" alt="" width={210} height={210}/>
+                                    <Image src="/Design-Thinking.svg" alt="design" width={210} height={210}/>
                                     <Image src="/Teams.svg" alt="teams" width={210} height={210} />
                                 </div>
                                 <Image src="/UI.svg" alt="ui" width={260} height={260} />
@@ -729,7 +729,7 @@ const DAJourney = () => {
                             {/* Icons */}
                             <div className="flex opacity-40">
                                 <div className="bg-tertiary absolute rounded-full p-3 -top-1 left-2">
-                                    <Image src="/at.svg" alt="@" width={50} height={50} />
+                                    <Image src="/at.svg" alt="at" width={50} height={50} />
                                 </div>
                                 <div className="bg-tertiary absolute rounded-full p-3 -top-3 left-28">
                                     <Image src="/web.svg" alt="web" width={35} height={35} />
@@ -827,9 +827,9 @@ const DAJourney = () => {
                             <Image src="/si.svg" alt="si" width={0} height={0} style={{width: '100%', height: 'auto'}}/>
                         </div>
                         <div className="flex flex-col gap-4 basis-1/2">
-                            <Image src="/ud-think.svg" alt="" width={0} height={0} style={{width: '100%', height: 'auto'}}/>
-                            <Image src="/collab.svg" alt="" width={0} height={0} style={{width: '100%', height: 'auto'}}/>
-                            <Image src="/prd-mob.svg" alt="" width={0} height={0} style={{width: '100%', height: 'auto'}}/>
+                            <Image src="/ud-think.svg" alt="ud" width={0} height={0} style={{width: '100%', height: 'auto'}}/>
+                            <Image src="/collab.svg" alt="collab" width={0} height={0} style={{width: '100%', height: 'auto'}}/>
+                            <Image src="/prd-mob.svg" alt="prd" width={0} height={0} style={{width: '100%', height: 'auto'}}/>
                         </div>
                     </div>
 
@@ -882,11 +882,11 @@ const DAJourney = () => {
                         </div>
                         
                         <div className="flex flex-col">
-                            <Image src="/group1.svg" alt="" width={0} height={0} style={{width: '100%', height: 'auto'}} />
+                            <Image src="/group1.svg" alt="group1" width={0} height={0} style={{width: '100%', height: 'auto'}} />
                             <div className="self-center h-[30px] border-dashed w-[2px] border border-l-white opacity-30" />
-                            <Image src="/group1.svg" alt="" width={0} height={0} style={{width: '100%', height: 'auto'}} />
+                            <Image src="/group1.svg" alt="group1" width={0} height={0} style={{width: '100%', height: 'auto'}} />
                             <div className="self-center h-[30px] border-dashed w-[2px] border border-l-white opacity-30" />
-                            <Image src="/group1.svg" alt="" width={0} height={0} style={{width: '100%', height: 'auto'}} />
+                            <Image src="/group1.svg" alt="group1" width={0} height={0} style={{width: '100%', height: 'auto'}} />
                         </div>
 
                     
