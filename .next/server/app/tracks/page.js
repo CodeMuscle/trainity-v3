@@ -178,12 +178,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 26518:
+/***/ 44461:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1505));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 33002));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 23261));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 33002));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 77774));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 66791));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 99797, 23));
@@ -2801,7 +2801,7 @@ const DAJourney = ()=>{
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                 src: "/Design-Thinking.svg",
-                                                                alt: "",
+                                                                alt: "design",
                                                                 width: 210,
                                                                 height: 210
                                                             }),
@@ -3602,7 +3602,7 @@ const DAJourney = ()=>{
                                                     className: "bg-tertiary absolute rounded-full p-3 -top-1 left-2",
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                         src: "/at.svg",
-                                                        alt: "@",
+                                                        alt: "at",
                                                         width: 50,
                                                         height: 50
                                                     })
@@ -3822,7 +3822,7 @@ const DAJourney = ()=>{
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                             src: "/ud-think.svg",
-                                            alt: "",
+                                            alt: "ud",
                                             width: 0,
                                             height: 0,
                                             style: {
@@ -3832,7 +3832,7 @@ const DAJourney = ()=>{
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                             src: "/collab.svg",
-                                            alt: "",
+                                            alt: "collab",
                                             width: 0,
                                             height: 0,
                                             style: {
@@ -3842,7 +3842,7 @@ const DAJourney = ()=>{
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                             src: "/prd-mob.svg",
-                                            alt: "",
+                                            alt: "prd",
                                             width: 0,
                                             height: 0,
                                             style: {
@@ -4006,7 +4006,7 @@ const DAJourney = ()=>{
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     src: "/group1.svg",
-                                    alt: "",
+                                    alt: "group1",
                                     width: 0,
                                     height: 0,
                                     style: {
@@ -4019,7 +4019,7 @@ const DAJourney = ()=>{
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     src: "/group1.svg",
-                                    alt: "",
+                                    alt: "group1",
                                     width: 0,
                                     height: 0,
                                     style: {
@@ -4032,7 +4032,7 @@ const DAJourney = ()=>{
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     src: "/group1.svg",
-                                    alt: "",
+                                    alt: "group1",
                                     width: 0,
                                     height: 0,
                                     style: {
