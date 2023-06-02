@@ -3,11 +3,11 @@ import React from 'react'
 
 const Success = () => {
   return (
-    <div className="py-24 px-28">
+    <div className="py-18 md:py-24 lg:py-24 px-6 md:px-28 lg:px-28">
         {/* <div className="gradient-custom">
             <Image src="/gradient-05.svg" alt="gradient-04" width={350} height={450} />
         </div> */}
-        <div className="flex flex-row justify-between align-center gap-10">
+        <div className="flex flex-col-reverse md:flex-row lg:flex-row justify-between align-center gap-28 md:gap-10 lg:gap-10">
             <div className="flex flex-col basis-1/2 gap-0">
                 <div className="flex flex-row gap-14 justify-center">
                     <Image src="/brain-block.svg" alt="brain" width={100} height={100} />
@@ -34,7 +34,7 @@ const Success = () => {
                 </div>
             </div>
             <div className="flex flex-col basis-1/2 gap-8 self-center">
-                <h1 className="text-white font-semibold text-[46px] leading-[56px] sm:text-[44px] sm:leading-[52px] capitalize w-[60%]">How <span className="text-primary">Trainity</span> brings success to students</h1>
+                <h1 className="text-white font-semibold text-[30px] leading-[35px] sm:text-[44px] sm:leading-[52px] capitalize md:w-[60%] lg:w-[60%]">How <span className="text-primary">Trainity</span> brings success to students</h1>
                 <p className="text-footer font-thin text-[20px] sm:text-[16px]">&quot;Trainity offers an updated, practical curriculum with a focus on immersive learning. It provides a risk-free education at no cost, taking on the financial burden for its students. Aspiring to guide and mentor individuals, I am thrilled to be a part of Trainity&apos;s mission.&quot;</p>
                 <div className="flex flex-row gap-6 justify-start-align-center">
                     <Image src="/siddhart-circle.svg" alt="siddhart-circle" width={60} height={60} />

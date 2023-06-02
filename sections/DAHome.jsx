@@ -3,7 +3,7 @@ import React from 'react'
 
 const DAHome = () => {
   return (
-       <div className="pl-32 pb-14 flex flex-row">
+       <div className="px-4 md:pl-32 lg:pl-32 pb-14 flex flex-col md:flex-row lg:flex-row align-center justify-center">
             <div className="flex flex-col basis-1/2 pt-28">
                 <div className="flex flex-col gap-2">
                     <div className="bg-secondary rounded-lg p-2 w-[120px]">

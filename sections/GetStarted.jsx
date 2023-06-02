@@ -13,10 +13,10 @@ const GetStarted = () => {
             <div className={`${styles.paddings} flex flex-col align-center justify-center`}>
                 <TitleText title={<>Curated Precisely For Individual Needs</>} />
                 <TypingText className={`${styles.interWidth}`} title="Customized course content designed to meet the unique needs of students, working professionals, and graduates."
-                textStyles="text-footer"
+                textStyles="text-footer hidden sm:flex md:flex lg:flex"
                  />    
             </div>
-            <div className={`${styles.paddings} flex flex-row align-center justify-center gap-8`}>
+            <div className={`${styles.paddings} flex flex-col sm:flex-col md:flex-row lg:flex-row align-center justify-center gap-8`}>
                 {jobCard.map((job, index) => (
                   <JobCard 
                     key={job.id}

@@ -1,19 +1,21 @@
 import { Footer, Navbar } from '../components';
 import { About, Experience, Feedback, GetStarted, Hero, Insights, World } from '../sections';
 import LogoSlider from '../sections/LogoSlider';
-// import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
+// import Banner from '../components/Banner';
+import Testimonial from '../sections/Testimonial';
 
 const Page = () => (
-    <div className="bg-trainity-dark overflow-hidden">
+    <div className="bg-trainity-dark snap-y overflow-hidden">
       <Navbar />
       <Hero />
       <About />
-      <LogoSlider/ >
+      <LogoSlider />
       <Experience />
       <GetStarted />
       <World />
       <Insights />
       <Feedback />
+      <Testimonial />
       <Footer />
     </div>
   );

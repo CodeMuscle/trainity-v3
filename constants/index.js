@@ -599,7 +599,7 @@ export const courses = [
   {
     id: 1,
     title: "SQL",
-    href: ""
+    href: "/tracks"
   },
   {
     id: 1,
@@ -617,12 +617,12 @@ export const company = [
   {
     id: 1,
     title: "About Us",
-    href: ""
+    href: "/about"
   },
   {
     id: 2,
     title: "Track",
-    href: ""
+    href: "/tracks"
   },
   {
     id: 3,

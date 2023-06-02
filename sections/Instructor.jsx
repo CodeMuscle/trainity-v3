@@ -3,14 +3,14 @@ import React from 'react'
 
 const Instructor = () => {
   return (
-    <div className="mentor-section py-20 px-18">
+    <div className="mentor-section py-20 px-10 md:px-18 lg:mx-18">
         <div className="flex flex-col gap-4 self-center text-center">
-            <h1 className="text-white font-normal text-[46px] sm:text-[42px] ">Meet Your <span className="text-primary">Mentors</span></h1>
+            <h1 className="text-white font-normal text-[36px] sm:text-[42px] ">Meet Your <span className="text-primary">Mentors</span></h1>
             <p className="text-footer font-thin text-[20px] sm:text-[16px]">
             Meet our team of experienced mentors who will guide you through our comprehensive data analytics program.
             </p>
 
-            <div className="self-center flex flex-row gap-24 my-16">
+            <div className="self-center flex flex-col md:flex-row lg:flex-row gap-y-10 md:gap-24 lg:gap-24 my-16">
                 <div className="flex flex-col gap-4">
                     <Image src="/mentor-1.svg" alt="siddharth" width={150} height={150} className="mb-3"/>
                     <div className="flex flex-col gap-2">
