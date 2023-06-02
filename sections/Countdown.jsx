@@ -76,7 +76,7 @@ const Countdown = () => {
                     1. Sign-Up for Free webinar
                 </h3>
                 </AccordionHeader>
-                <AccordionBody className="bg-secondary p-4">
+                <AccordionBody className="bg-secondary p-4 rounded-b-lg">
                     <p className="text-white font-normal text-[16px]">
                         We&apos;re not always in the position that we want to be at.
                         We&apos;re constantly growing. We&apos;re constantly making mistakes.
@@ -91,7 +91,7 @@ const Countdown = () => {
                     2. Attend the webinar
                 </h3>
                 </AccordionHeader>
-                <AccordionBody className="bg-secondary p-4">
+                <AccordionBody className="bg-secondary p-4 rounded-b-lg">
                     <p className="text-white font-normal text-[16px]">
                         We&apos;re not always in the position that we want to be at.
                         We&apos;re constantly growing. We&apos;re constantly making mistakes.
@@ -106,7 +106,7 @@ const Countdown = () => {
                     3. Get Enrolled!
                 </h3>
                 </AccordionHeader>
-                <AccordionBody className="bg-secondary p-4">
+                <AccordionBody className="bg-secondary p-4 rounded-b-lg">
                     <p className="text-white font-normal text-[16px]">
                         We&apos;re not always in the position that we want to be at.
                         We&apos;re constantly growing. We&apos;re constantly making mistakes.

@@ -95,9 +95,8 @@ const [activeStep, setActiveStep] = React.useState(0);
 
 
         </div>
-
-        
         </div>
+
         <div className="block px-1 mb-20 md:hidden lg:hidden">
             <div className="flex flex-col px-8 py-12 gap-4 md:hidden lg:hidden">
                 <h3 className="text-white font-normal text-[28px] capitalize">What <span className="text-primary">you get</span> </h3>

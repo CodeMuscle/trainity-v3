@@ -1,27 +1,51 @@
 "use client";
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-import { Pagination, Navigation } from "swiper";
-
 import styles from "../styles";
 
 import { TitleText, TypingText } from "../components";
 import Image from "next/image";
 
+import {
+    Tabs,
+    TabsHeader,
+    TabsBody,
+    Tab,
+    TabPanel,
+  } from "@material-tailwind/react";
+
+
+const data = [
+    {
+      label: "/index-f.svg",
+      value: "index-finger",
+      desc: "/Asset Frame.svg",
+      feature1: 'Work in a Team 🤝',
+      desc1: 'Daily Slack standups and weekly meetings with your teammates and mentor'
+    },
+    {
+      label: "/peace.svg",
+      value: "peace",
+      desc: "/Asset Frame.svg",
+      feature1: 'Collab with Team 🤝',
+      desc1: 'Daily Slack standups and weekly meetings with your teammates and mentor'
+    },
+    {
+      label: "/3-finger.svg",
+      value: "three-finger",
+      desc: "/Asset Frame.svg",
+      feature1: 'Work in a Team 🤝',
+      desc1: 'Daily Slack standups and weekly meetings with your teammates and mentor'
+    },
+  ];
+
 const World = () => {
-    const pagination = {
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + "</span>";
-        className="mt-10"
-        },
-      };
+    // const pagination = {
+    //     clickable: true,
+    //     renderBullet: function (index, className) {
+    //       return '<span class="' + className + '">' + (index + 1) + "</span>";
+    //     className="mt-10"
+    //     },
+    //   };
       return(
     <div className="flex align-center justify-center py-2">
         <div className={`${styles.innerWidth} flex flex-col align-center justify-center`}>
@@ -67,33 +91,43 @@ const World = () => {
             {/* Mobile Card */}
             {/* Carousel */}
             <div className="self-center block md:hidden lg:hidden">
-                <Swiper
-                slidesPerView={1}
-                spaceBetween={5}
-                loop={true}
-                autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-                }}
-                navigation={false}
-                pagination={pagination}
-                modules={[Pagination, Navigation]}
-                className="mySwiper w-[300px]"
-            >
-                <SwiperSlide>
-                    <Image src="/da-img.svg" alt="data-analytics" width={0} height={0} style={{width: '100%', height: 'auto'}} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image src="/da-img.svg" alt="data-analytics" width={0} height={0} style={{width: '100%', height: 'auto'}} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image src="/da-img.svg" alt="data-analytics" width={0} height={0} style={{width: '100%', height: 'auto'}} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image src="/da-img.svg" alt="data-analytics" width={0} height={0} style={{width: '100%', height: 'auto'}} />
-                </SwiperSlide>
-                
-                </Swiper>
+            <div className="mt-8 flex flex-col self-center text-center gap-4">
+                            <p className="text-primary text-[20px] font-normal">2.1</p>
+                            <h3 className="text-white font-normal text-[24px]">Collaborate with Real teams & analyze real data sets.</h3>
+                    </div>
+
+                    <Tabs value="peace" className="max-w-[40rem] mt-6">
+                        <TabsBody>
+                            {data.map(({ value, desc }) => (
+                            <TabPanel key={value} value={value}>
+                                <Image src={desc} alt={value} width={0} height={0} style={{width: '100%', height: 'auto'}}/>
+                            </TabPanel>
+                            ))}
+                        </TabsBody>
+                        <TabsHeader
+                            className="bg-transparent"
+                            indicatorProps={{
+                            className: "bg-blue-500/10 shadow-none text-blue-500 rounded-full",
+                            }}
+                        >
+                            {data.map(({ label, value }) => (
+                            <Tab key={value} value={value} className="tab">
+                                <Image className="" src={label} alt={value} width={25} height={25} />
+                            </Tab>
+                            ))}
+                        </TabsHeader>
+                        <TabsBody>
+                            {data.map(({ value, desc1, feature1 }) => (
+                            <TabPanel key={value} value={value}>
+                                <div className="flex flex-col gap-2 align-center-justify-center self-center text-center">
+                                    <p className="text-white font-semibold text-[18px]">{feature1}</p>
+                                    <p className="text-white font-normal text-[16px]">{desc1}</p>
+                                </div>
+                            </TabPanel>
+                            ))}
+                        </TabsBody>
+                        
+                    </Tabs>
             </div>
 
                 

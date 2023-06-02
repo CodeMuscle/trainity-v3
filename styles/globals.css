@@ -150,6 +150,13 @@
   background: linear-gradient(0deg, #0A191F 0%, #183743 100%);
 }
 
+.tricard-mob{
+  background: linear-gradient(180deg, #1F3E4B 0%, #122C36 100%);
+}
+.tricard-desktop{
+  background: transparent !important;
+}
+
 .ring-blue-100{
   --tw-ring-color: #94dfb985 !important;
 }
@@ -170,6 +177,20 @@
   height: auto;
   width: 1px;
   opacity: 0.1;
+}
+.hl{
+  background: #EDF0F1;
+  height: 2px;
+  width: 100%;
+  opacity: 0.1;
+}
+
+.bg-nano{
+  background: linear-gradient(90deg, #F7BA2C 0%, #EA5459 100%);
+}
+
+.tab{
+  padding: 1rem 0rem; 
 }
 
 .vertical-dashed{
