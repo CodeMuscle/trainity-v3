@@ -3,16 +3,14 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'www.pexels.com',
+        protocol: '',
+        hostname: '',
         port: '',
         pathname: '',
       },
     ],
-  },
 };
 
 module.exports = nextConfig;
