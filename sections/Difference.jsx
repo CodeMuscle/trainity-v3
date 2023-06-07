@@ -52,9 +52,9 @@ const Difference = () => {
         </p>
 
         <div className="flex flex-col gap-8 self-center">
-            <div className="flex flex-col rounded-2xl border-secondary bg-tertiary relative overflow-hidden p-10 gap-6 h-[370px]">
-                <Image src="/multi-card.svg" alt="" width={400} height={400} className="absolute top-10 left-0 right-0" />
-                <h3 className="text-white font-normal text-[22px] capitalize absolute top-72 left-28">live projects</h3>
+            <div className="flex flex-col rounded-2xl border-secondary bg-tertiary relative overflow-hidden p-10 gap-6 h-[400px]">
+                <Image src="/multi-card.svg" alt="" width={0} height={0} style={{width: '100%', height: 'auto'}} className="absolute top-10 left-0 right-0" />
+                <h3 className="text-white font-normal text-[22px] self-center capitalize absolute top-80 left-36">live projects</h3>
             </div>
             <div className="flex flex-col rounded-2xl border-secondary bg-tertiary relative overflow-hidden p-10 gap-6">
                 <Image src="/joystick.svg" alt="" width={200} height={200} className="self-center" />

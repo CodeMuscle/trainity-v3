@@ -19,7 +19,7 @@ const Instructor = () => {
                     </div>
                     <div className="self-center flex flex-row gap-5 mt-3">
                         <a className="cursor-pointer rounded-full bg-secondary p-2 flex align-center justify-center">
-                            <Image src="linkedin.svg" width={20} height={20} alt="linkedin"  />
+                            <Image src="/linkedin.svg" width={20} height={20} alt="linkedin"  />
                         </a>
                         <a className="cursor-pointer rounded-full bg-secondary p-2 flex align-center justify-center">
                             <Image src="/twitter_link.svg" width={20} height={20} alt="twitter"  />
